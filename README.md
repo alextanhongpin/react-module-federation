@@ -19,7 +19,7 @@ Within each application, install webpack 5 and related dependencies.
 yarn add -D webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader css-loader
 ```
 
-### Step 3 - Customize Home Page
+## Step 3 - Customize Home Page
 
 In `home-app/App.js`:
 
@@ -68,7 +68,7 @@ Run your header app:
 $ cd ./home-app && yarn && yarn start
 ```
 
-## Step 5— Webpack Configuration
+## Step 5 — Webpack Configuration
 
 Create `webpack.config.js` file at the root of `header-app/` and `home-app/`:
 
