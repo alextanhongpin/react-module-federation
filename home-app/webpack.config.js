@@ -45,6 +45,10 @@ module.exports = {
       // and its module definition is "remoteEntry.js".
       remotes: {
         HeaderApp: "HeaderApp@http://localhost:3001/remoteEntry.js",
+        // Points to static build.
+        // Run "yarn-build" first at header-app
+        // The run python3 -m http.server 8080
+        FooterApp: "HeaderApp@http://localhost:8080/dist/remoteEntry.js",
       },
       shared: {
         // and shared
